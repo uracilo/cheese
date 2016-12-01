@@ -13,4 +13,57 @@
  *= require_tree .
  *= require_self
  */
+/*body{
+    background-image: url("/cow.jpg");
+    background-color: #cccccc;
+}
 
+/*
+typography*/
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*typography ends*/
+
+
+
+/*style nav_bar start*/
+	.list_navbar{
+    	margin-top: 9%;
+		text-align: center;
+	}
+	.brand_navbar{
+	align-content: center;
+    text-align: center;
+    padding: 9%;
+	}
+	.brand_description{
+	margin-top: -2%;
+    margin-left: 1%;
+    position: relative;
+    width: 81vw;
+	}
+
+	
+ a:hover{
+ 	color: inherit;
+ }
+
+
+@media (max-width: 768px){
+	.description {
+    display: none;
+}
+.brand_navbar{
+	margin-top: -20%;
+}
+}
+
+
+@media (min-width: 768px){
+	.position_session{
+position: fixed !important;
+    right: 5%;
+}
+}
+/*style nav_bar end*/
