@@ -1,5 +1,7 @@
-<div class="container">
+<div class="container  align-center">
   <h2>Sign up</h2>
+<br>
+  <a href="<%= new_user_registration_path %>"> Regístrate </a>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>

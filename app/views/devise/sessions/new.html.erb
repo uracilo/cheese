@@ -1,7 +1,9 @@
-<div class="container">
+<div class="container  align-center">
   
-  <h2>Entrar</h2>
-<a href="<%= new_user_registration_path %>"> Regístrate </a>
+    <h2>Entrar</h2>
+  
+<br>
+  <a href="<%= new_user_registration_path %>"> Regístrate </a>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
