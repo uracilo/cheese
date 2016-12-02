@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 #my gems
 #
-
+gem 'omniauth'
+gem 'omniauth-facebook'
 gem 'figaro'
 gem 'devise'
 gem 'cancancan'
